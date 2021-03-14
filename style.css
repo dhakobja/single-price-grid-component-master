@@ -1,0 +1,136 @@
+:root{
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Karla', sans-serif;
+  background-color: var(--Light-Gray);
+  padding: 5rem 2rem;
+}
+
+main{
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-section{
+  border: 1px solid;
+  border-bottom: 0px;
+  border-color: white;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1rem;
+}
+
+.top-section h1{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--Cyan);
+  margin-bottom: 1rem;
+}
+
+.top-section h2{
+  font-size: 1rem;
+  color: var(--Bright-Yellow);
+  margin-bottom: 1rem;
+}
+
+.top-section p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--Grayish-Blue);
+  margin-bottom: 1rem;
+}
+
+.bottom-section h2{
+  font-size: 1.1rem;
+  color: var(--Light-Gray);
+  margin-bottom: 1rem;
+}
+
+.bottom-section p{
+  color: var(--Light-Gray);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.left-part{
+  border: 1px solid;
+  border-bottom: 0px;
+  border-color: white;
+  background-color: var(--Cyan);
+  padding: 1.5rem;
+}
+
+.left-part p{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.left-part span{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.left-part .text-before-button{
+  margin-bottom: 2rem;
+}
+
+button{
+  width: 100%;
+  font-size: 1rem;
+  color: var(--Light-Gray);
+  background-color: var(--Bright-Yellow);
+  border: 1px solid;
+  border-color: var(--Bright-Yellow);
+  border-radius: 0.6rem;
+  box-shadow: 0px 3px 10px -2px black;
+  padding: 1rem;
+}
+
+.right-part{
+  border: 1px solid;
+  border-top: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: white;
+  background-color: rgba(42, 178, 175, 0.7);
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  
+}
+
+.right-part p{
+  font-size: 0.8rem;
+}
+
+@media(min-width:62.5rem){
+  
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
